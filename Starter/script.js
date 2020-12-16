@@ -1,1 +1,3 @@
-console.log("Hell o");
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("Hell o");
+});
