@@ -19,3 +19,38 @@ body {
   height: 100vh;
   overflow: hidden;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.step {
+  border: 1px solid black;
+  height: 5vw;
+  width: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  user-select: none;
+}
+
+.step:hover{
+  font-weight: 700;
+}
+
+.step.active {
+  border-color: blue;
+}
+
+.line {
+  width: 15vw;
+  border: 1px solid black;
+  height: 0;
+}
+
+.line.active {
+  border-color: blue;
+}
